@@ -1,0 +1,189 @@
+# Table of contents
+# Learn more at https://jupyterbook.org/customize/toc.html
+
+format: jb-book
+root: intro
+parts:
+    - caption: Preparation
+      numbered: 3
+      chapters:
+      - file: Chapter0_PrepWork/MT_wk0_intro.md
+        sections:
+        - file: Chapter0_PrepWork/MT_wk0_datacamp.md
+        - file: Chapter0_PrepWork/MT_wk0_JupyterLab.md
+        - file: Chapter0_PrepWork/MT_wk0_Colab.md
+        - file: Chapter0_PrepWork/MT_wk0_For.ipynb
+        - file: Chapter0_PrepWork/MT_wk0_ForIf.ipynb
+        - file: Chapter0_PrepWork/MT_wk0_random.ipynb
+        - file: Chapter0_PrepWork/MT_wk0_ChatGPT.ipynb
+    - caption: Exploring Data
+      numbered: 3
+      chapters:
+      - file: Chapter1_DescribingData/MT_wk1_intro.md
+        sections:
+        - file: Chapter1_DescribingData/MT_wk1_outcomes.md
+        - file: Chapter1_DescribingData/MT_wk1_MeanMedianMode.md
+        - file: Chapter1_DescribingData/MT_wk1_StDevIQR.md
+        - file: Chapter1_DescribingData/MT_wk1_Skew.md
+        - file: Chapter1_DescribingData/MT_wk1_Correlation.md
+        - file: Chapter1_DescribingData/MT_wk1_conceptCheck.md
+        - file: Chapter1_DescribingData/MT_wk1_PythonIndexing.ipynb
+        - file: Chapter1_DescribingData/MT_wk1_tables.ipynb
+        - file: Chapter1_DescribingData/MT_wk1_TutorialExercises.ipynb
+      - file: Chapter2_DataVisualization/MT_wk2_intro.md
+        sections:
+        - file: Chapter2_DataVisualization/MT_wk2_outcomes.md
+        - file: Chapter2_DataVisualization/MT_wk2_snsplt.ipynb
+        - file: Chapter2_DataVisualization/MT_wk2_histogram.ipynb
+        - file: Chapter2_DataVisualization/MT_wk2_boxplot.ipynb
+        - file: Chapter2_DataVisualization/MT_wk2_scatterplot.ipynb
+        - file: Chapter2_DataVisualization/MT_wk2_lineplot.ipynb
+        - file: Chapter2_DataVisualization/MT_wk2_tweaks.ipynb
+        - file: Chapter2_DataVisualization/MT_wk2_TutorialExercises.ipynb
+        - file: Chapter2_DataVisualization/MT_wk2_additionalMaterials.md
+      - file: Chapter3_DataWrangling/MT_wk3_intro.md
+        sections:
+        - file: Chapter3_DataWrangling/MT_wk3_outcomes.md
+        - file: Chapter3_DataWrangling/MT_wk3_FindOutliers.ipynb
+        - file: Chapter3_DataWrangling/MT_wk3_NaNing.ipynb
+        - file: Chapter3_DataWrangling/MT_wk3_NanHandling.ipynb
+        - file: Chapter3_DataWrangling/MT_wk3_disaggregation.ipynb
+        - file: Chapter3_DataWrangling/MT_wk3_CreateColumns.ipynb
+        - file: Chapter3_DataWrangling/MT_wk3_ZScoreQuantiles.ipynb
+        - file: Chapter3_DataWrangling/MT_wk3_ReportExample.md
+        - file: Chapter3_DataWrangling/MT_wk3_Assignment1_ModelAnswer.md
+        - file: Chapter3_DataWrangling/MT_wk3_TutorialExercises.ipynb
+    - caption: Hypothesis Testing
+      numbered: 3
+      chapters:
+      - file: Chapter4_PermutationTest/MT_wk5_permutation_intro.md
+        sections:
+        - file: Chapter4_PermutationTest/MT_wk5_permutation_outcomes.md
+        - file: Chapter4_PermutationTest/MT_wk5_HypothesisTesting.md
+        - file: Chapter4_PermutationTest/MT_wk5_OneTwoTail.md
+        - file: Chapter4_PermutationTest/MT_wk5_PermutationTypes.md
+        - file: Chapter4_PermutationTest/MT_wk5_functions.md
+        - file: Chapter4_PermutationTest/MT_wk5_permutation_paired.md
+        - file: Chapter4_PermutationTest/MT_wk5_permutation_unpaired.md
+        - file: Chapter4_PermutationTest/MT_wk5_permutation_correlation.md
+        - file: Chapter4_PermutationTest/MT_wk5_permutation_practice.md
+        - file: Chapter4_PermutationTest/MT_wk5_permutation_TutorialExercises.md
+      - file: Chapter5_ClassicTests/MT_wk6_classictests_intro.md
+        sections:
+        - file: Chapter5_ClassicTests/MT_wk6_outcomes.md
+        - file: Chapter5_ClassicTests/MT_wk6_nonpara_intro.md
+        - file: Chapter5_ClassicTests/MT_wk6_nonpara_MannWhitneyU.ipynb
+        - file: Chapter5_ClassicTests/MT_wk6_nonpara_WilcoxonSignRank.ipynb
+        - file: Chapter5_ClassicTests/MT_wk6_spearman.ipynb
+        - file: Chapter5_ClassicTests/MT_wk6_TutorialExercises.ipynb
+      - file: Chapter6_ttest/ttest_intro.md
+        sections:
+        - file: Chapter6_ttest/HypothesisTestingRecap.md
+        - file: Chapter6_ttest/NormalDistribution.md
+        - file: Chapter6_ttest/BestFittingNormal.md
+        - file: Chapter6_ttest/tDistribution.md
+        - file: Chapter6_ttest/ttest_oneSample.ipynb
+        - file: Chapter6_ttest/ttest_pairedSamples.ipynb
+        - file: Chapter6_ttest/ttest_independentSamples.ipynb
+        - file: Chapter6_ttest/HandInAssignment.ipynb
+      - file: Chapter7_Power/power_intro.md
+        sections:
+        - file: Chapter7_Power/power_outcomes.md
+        - file: Chapter7_Power/Type1and2Errors.md
+        - file: Chapter7_Power/EffectSize.ipynb
+        - file: Chapter7_Power/EffectSizeCorrelation.ipynb
+        - file: Chapter7_Power/PowerCorrelationSim.ipynb
+        - file: Chapter7_Power/BuiltInPowerCalc.ipynb
+        - file: Chapter7_Power/DeterminingEffectSize.md
+        - file: Chapter7_Power/SampleSizeAndPower.md
+        - file: Chapter7_Power/power_conceptCheck.md
+        - file: Chapter7_Power/TutorialExercises.ipynb
+    - caption: Statistical Theory
+      numbered: 3
+      chapters:
+      - file: Chapter8_DataGeneratingDistributions/binomial_overallIntro.md
+        sections:
+        - file: Chapter8_DataGeneratingDistributions/binomial_intro.md
+        - file: Chapter8_DataGeneratingDistributions/binomial_objectives.md
+        - file: Chapter8_DataGeneratingDistributions/binomial_singlecoin.ipynb
+        - file: Chapter8_DataGeneratingDistributions/binomial_10000reps.ipynb
+        - file: Chapter8_DataGeneratingDistributions/binomial_nandp.ipynb
+        - file: Chapter8_DataGeneratingDistributions/binomial_PMFandCDF.ipynb
+        - file: Chapter8_DataGeneratingDistributions/AnalyticVsNumerical.ipynb
+        - file: Chapter8_DataGeneratingDistributions/binomial_normal.ipynb
+        - file: Chapter8_DataGeneratingDistributions/binomial_normalApprox.ipynb
+        - file: Chapter8_DataGeneratingDistributions/TutorialExercises.ipynb
+        - file: Chapter8_DataGeneratingDistributions/CentralLimitTheorem.ipynb
+        - file: Chapter8_DataGeneratingDistributions/TutorialExercises_CentralLimitTheorem.ipynb
+      - file: Chapter9_Probability/Probability_intro.md
+        sections:
+        - file: Chapter9_Probability/KolmogorovAxioms.md
+        - file: Chapter9_Probability/Diagrams.md
+        - file: Chapter9_Probability/Independence.md
+        - file: Chapter9_Probability/EventCombinations.md
+        - file: Chapter9_Probability/JointProbability.md
+        - file: Chapter9_Probability/BayesTheorem.md
+        - file: Chapter9_Probability/PaperAndPencilExercises.md
+        - file: Chapter9_Probability/TutorialExercises1.ipynb
+        - file: Chapter9_Probability/TutorialExercises2.ipynb
+        - file: Chapter9_Probability/placeholder.md
+    - caption: Regression Models
+      numbered: 3
+      chapters:
+      - file: Chapter10_Regression1/regression1_intro.md
+        sections:
+        - file: Chapter10_Regression1/regression1_outcomes.md
+        - file: Chapter10_Regression1/regression1_concepts.md
+        - file: Chapter10_Regression1/regression1_interpretingSlope.md
+        - file: Chapter10_Regression1/regression1_QandA.md
+        - file: Chapter10_Regression1/regression1_prepwork.ipynb
+        - file: Chapter10_Regression1/regression1_TutorialExercises.ipynb
+      - file: Chapter11_Regression2/regression2_intro.md
+        sections:
+        - file: Chapter11_Regression2/regression2_outcomes.md
+        - file: Chapter11_Regression2/regression2_concepts.md
+        - file: Chapter11_Regression2/regression2_typesOfRelationship.md
+        - file: Chapter11_Regression2/regression2_QandA.md
+        - file: Chapter11_Regression2/VariableTypes.md
+        - file: Chapter11_Regression2/InteractionTerms.md
+        - file: Chapter11_Regression2/regression2_TutorialExercises.ipynb
+        - file: Chapter11_Regression2/regression3_intro.md
+      - file: Chapter12_Regression3/regression3_intro.md
+        sections:
+        - file: Chapter12_Regression3/regression3_outcomes.md
+        - file: Chapter12_Regression3/regression3_conceptsR2.md
+        - file: Chapter12_Regression3/regression3_conceptsConditionals.md
+        - file: Chapter12_Regression3/regression3_conceptsSignificance.md
+        - file: Chapter12_Regression3/regression3_assumptions.md
+        - file: Chapter12_Regression3/regression3_prepwork.ipynb
+        - file: Chapter12_Regression3/regression3_TutorialExercises.ipynb
+        - file: Chapter12_Regression3/regression4_intro.md
+      - file: Chapter13_Regression4/regression4_intro.md
+        sections:
+        - file: Chapter13_Regression4/regression4_outcomes.md
+        - file: Chapter13_Regression4/regression4_concepts.md
+        - file: Chapter13_Regression4/regression4_longhandExample.md
+        - file: Chapter13_Regression4/regression4_equations.md
+        - file: Chapter13_Regression4/regression4_KWtest.md
+        - file: Chapter13_Regression4/regression4_ANOVAregression.md
+        - file: Chapter13_Regression4/regression4_prepwork.ipynb
+        - file: Chapter13_Regression4/regression4_TutorialExercises.ipynb
+        - file: Chapter13_Regression4/regression5_intro.md
+      - file: Chapter14_Regression5/regression5_intro.md
+        sections:
+        - file: Chapter14_Regression5/regression5_outcomes.md
+        - file: Chapter14_Regression5/regression5_concepts.md
+        - file: Chapter14_Regression5/regression5_LogisticEquation.md
+        - file: Chapter14_Regression5/regression5_workedExample.md
+        - file: Chapter14_Regression5/regression5_prepwork.ipynb
+        - file: Chapter14_Regression5/regression5_TutorialExercises.ipynb
+        - file: Chapter14_Regression5/regression6_intro.md
+      - file: Chapter15_Regression6/regression6_intro.md
+        sections:
+        - file: Chapter15_Regression6/regression6_outcomes.md
+        - file: Chapter15_Regression6/regression6_concepts.md
+        - file: Chapter15_Regression6/regression6_causality.md
+        - file: Chapter15_Regression6/regression6_TutorialExercises.md
+
+
+
