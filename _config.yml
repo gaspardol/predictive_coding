@@ -3,7 +3,7 @@
 
 title: Introduction to Predictive Coding
 author: Gaspard Oliviers
-logo: dice.jpg
+logo: pred_brain.webp
 
 # Force re-execution of notebooks on each build.
 # See https://jupyterbook.org/content/execute.html
